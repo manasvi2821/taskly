@@ -1,0 +1,22 @@
+### Get all tasks
+GET http://localhost:5000/api/tasks
+
+### Add a new task
+POST http://localhost:5000/api/tasks
+Content-Type: application/json
+
+{
+  "title": "Do laundry"
+}
+
+### Update a task
+PUT http://localhost:5000/api/tasks/67fd6457b3c00a1abd48aa3b
+Content-Type: application/json
+
+{
+  "title": "Updated Task",
+  "isCompleted": true
+}
+
+### Delete a task
+DELETE http://localhost:5000/api/tasks/67fd6457b3c00a1abd48aa3b

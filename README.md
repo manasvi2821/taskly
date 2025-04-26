@@ -31,9 +31,9 @@ The application is fully **Dockerized** and deployed on **AWS EC2** for cloud ho
 ## 📦 Project Structure
 
 taskly/
- ├── taskly-frontend/     # Flutter Web App
- ├── taskly-backend/      # Node.js Backend Server
- ├── README.md
+ - taskly-frontend/     # Flutter Web App
+ - taskly-backend/      # Node.js Backend Server
+ - README.md
 
  ---
  ## 🐳 Docker Setup
